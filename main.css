@@ -1,0 +1,297 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: #e9ebee;
+}
+
+
+#wrapper {
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 16px;
+     margin-bottom: 16px;
+
+}
+.box {
+  height: 1000px;
+  background-color: #e7e7e7;
+  border: 1px solid rgba(0,0,0,0.87);
+}
+
+/* Add Custom CSS Below this line */
+
+.container {
+  padding: 5px; 
+    height: 1000px;
+    
+  }
+  #main,#menu,#sidebar {
+    margin: 2px 2px 2px 2px;
+     height: 1000px;
+  }
+  #main { 
+    background-color:#e9ebee;
+   }
+
+  #menu { background-color: #e9ebee; }
+  #sidebar { background-color: #e9ebee; }
+  
+  header {
+   
+  background-color: #4267b2;
+
+}
+footer {
+  background-color: rgba(255,255,255,0.87);
+  
+}
+#header {
+  margin-top: -17px;
+    background-color: #4267b2;
+    color: white;
+}
+.white-text {
+  color: white !important;
+}
+.image1{
+  
+  height:23px;
+  width: 22px;
+  border-radius: 2px;
+}
+.image_nav{
+  margin-right: -30px;
+}
+
+#header ul .glyphicon {
+    font-size: 15px;
+   
+}
+.image2{
+    float: right;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+}
+.list-heading {
+    padding: 20px 15px 0 15px;
+}
+.badge{
+  background-color: red;
+  margin-top: -22px;
+  margin-left: -23px;
+}
+
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+.text-post {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.image-post {
+    margin-bottom: 15px;
+}
+#main {
+    overflow: auto;
+}
+#main::-webkit-scrollbar{
+    display: none;
+}
+#main::-moz-scrollbar{
+    display: none;
+}
+.pen{
+  color: black;
+}
+.btn_post{
+  float: right;
+  background-color: #4267b2;
+  color: white;
+}
+.left_badge{
+  float: right;
+  margin-top: 0px;
+  background-color: #e9ebee;
+  color: rgb(144, 148, 156);
+}
+.gap{
+  margin-left: -25px;
+}
+.blak{
+  color:black;
+}
+#info{
+  margin: 3px;
+  font-size: 11px;
+}
+#info_time{
+  margin-left: 26px;
+  margin-top: -20px;
+}
+.comment {
+    margin: 0;
+}
+.com{
+  margin: -10px 10px 0px 35px; 
+}
+.birthday{
+  text-align: center;
+  
+  border:1px solid rgba(204, 204, 204,0.7);
+  
+  background-color: white;
+  margin: 1px;
+
+}
+.tab{
+  border:1px solid rgba(204, 204, 204,0.7);
+  margin: 2px;
+  background-color: white;
+}
+.lang{
+  border:0.8px solid rgb(204, 204, 204);
+  /*margin-top: -100px;*/
+  background-color: white;
+  border-radius: 2px;
+}
+#chat{
+  border: 1px solid rgba(204, 204, 204,0.7); 
+  position: fixed;
+  
+}
+.image_chat{
+  float: right;
+  border-radius: 50%;
+}
+.chat{
+  float: left;
+  font-size: 13px;
+}
+.searchbtn{
+  background-color:rgb(246, 247, 249);
+  margin-left: -9px;
+  margin-top: 6px;
+  border-bottom: 10px;
+  border-left: 0px;
+}
+.form-control{
+  margin-top: 8px;
+}
+.suggested{
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid rgba(204, 204, 204,1);
+}
+
+.frnd_request{
+
+  border:1px solid rgba(204, 204, 204,0.7);
+   padding: 10px;
+   background-color: white;
+    width: 200%;
+
+}
+.confirm_btn{
+  background-color: rgb(66, 103, 178); 
+  color: white; 
+  float: right;
+  border-radius: 5px;
+
+}
+.noti{
+
+  border:1px solid rgba(204, 204, 204,0.7);
+   padding: 6px;
+   background-color: white;
+    width: 150%;
+}
+/*body {overflow-x: hidden;}=>can also use this to remove horizontal bar*/
+.no-container {
+    margin-left: 0 !important;
+    margin-right: 0 !important; 
+}
+#glyph{
+  padding: 4px 4px 0px 4px;
+  height: 14px;
+  width: 14px;
+}
+ul{
+  list-style: none;
+}
+#form_mobile{
+  height: 25px;
+  width: 350px;
+}
+.searchbtn{
+  height: 25px;
+}
+@media screen and (max-width: 768px) {
+  
+  #form_mobile{
+    
+    width:100%;
+    
+
+  }
+  .searchbtn{
+    float: right;
+    margin-top: -30px;
+    height: 25px;
+     
+  }
+  .nav-pills1{
+
+    float: none;
+    display: block;
+    
+  }
+  .badge{
+  background-color: red;
+  margin-top: -10px;
+  
+}
+.glyphicon-question-sign{
+  visibility: hidden;
+}
+.drop{
+  visibility: hidden;
+}
+.glyphicon-globe{
+  
+  display: none;
+}
+.badge{
+  visibility: hidden;
+}
+.glyphicon-envelope{
+  margin-left: -25px;
+}
+.frnd_request{
+  visibility: hidden;
+  display: none;
+}
+
+.noti{
+  display: none;
+}
+
+
+}
+textarea.form-control:hover, textarea.form-control:active 
+{
+  font-size: 250%;
+  transition: 1s; 
+  background-color:#D3D3F5;
+  border: 1px solid blue;
+}
+
+ul li:hover ul {display: block;}
